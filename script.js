@@ -25,7 +25,7 @@ function renderCountries(data) {
   data.forEach((country) => {
     const countryCard = document.createElement('a')
     countryCard.classList.add('country-card')
-    countryCard.href = `${origin}/countries/country.html?name=${country.name.common}`
+    countryCard.href = `${origin}/Country_Details.github.io/country.html?name=${country.name.common}`
     countryCard.innerHTML = `
           <img src="${country.flags.svg}" alt="${country.name.common} flag" />
           <div class="card-text">
